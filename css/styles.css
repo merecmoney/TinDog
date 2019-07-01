@@ -1,3 +1,14 @@
+body {
+    font-size: 100%;
+}
+
 #title {
     background-color: #ff4c68;
+}
+
+.title-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 1.5;
 }
