@@ -46,6 +46,19 @@ body {
     font-size: 1.2rem;
     font-weight: 400;
 }
+
+/*
+ * Download Buttons
+*/
+
+/*
+ * Add margin instead of padding because padding would affect space inside button
+*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*
  * Title Image
 */
 
