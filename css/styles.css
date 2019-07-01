@@ -1,9 +1,12 @@
 * {
-    /* border: 1px solid black; */
+    /*
+     * border: 1px solid black;
+    */
 }
 
 body {
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #title {
@@ -11,7 +14,6 @@ body {
 }
 
 .title-h1 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3em;
     line-height: 1.5;
