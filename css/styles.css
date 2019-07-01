@@ -46,3 +46,10 @@ body {
     font-size: 1.2rem;
     font-weight: 400;
 }
+ * Title Image
+*/
+
+.title-image {
+    width: 55%;
+    transform: rotateZ(25deg)
+}
