@@ -12,11 +12,12 @@ body {
 #title {
     background-color: #ff4c68;
     color: #fff;
+    overflow: hidden;
 }
 
 .title-h1 {
     font-weight: 900;
-    font-size: 3.5r8em;
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 
@@ -63,8 +64,12 @@ body {
 */
 
 .title-image {
-    width: 55%;
-    transform: rotateZ(25deg)
+    margin: 5%;
+    width: 60%;
+    transform: rotateZ(25deg);
+    position: absolute;
+    top: 0;
+    right: 30%;
 }
 
 /*
