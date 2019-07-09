@@ -66,3 +66,12 @@ body {
     width: 55%;
     transform: rotateZ(25deg)
 }
+
+/*
+* features Section
+*/
+
+#features {
+    text-align: center;
+}
+
