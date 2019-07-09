@@ -83,3 +83,12 @@ body {
 #features p {
     color: #8f8f8f
 }
+
+#features span {
+    font-size: 5rem;
+    color: #ef8172;
+}
+
+#features span:hover {
+    color: #ff4c68;
+}
