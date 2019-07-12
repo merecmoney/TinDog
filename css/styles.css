@@ -105,3 +105,17 @@ body {
 .feature-box {
     padding: 5%;
 }
+/*
+* press section
+*/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1.25rem 1.25rem 3.125rem;
+}
