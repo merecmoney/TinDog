@@ -105,6 +105,34 @@ body {
 .feature-box {
     padding: 5%;
 }
+
+/*
+* testimonials section
+*/
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials > em {
+    font-weight: 700;
+}
+
+.testimonials-h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 1.25rem;
+}
+
 /*
 * press section
 */
