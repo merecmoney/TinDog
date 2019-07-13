@@ -156,3 +156,21 @@ em {
     width: 15%;
     margin: 1.25rem 1.25rem 3.125rem;
 }
+
+/*
+* Pricing Section
+*/
+#pricing {
+    padding: 6.25rem;
+    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
