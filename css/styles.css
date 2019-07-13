@@ -5,14 +5,14 @@
 }
 
 body {
-    font-size: 100%;
     font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
 }
 
 #title {
-    background-color: #ff4c68;
-    color: #fff;
     overflow: hidden;
+    color: #fff;
+    background-color: #ff4c68;
 }
 
 #title .container-fluid {
@@ -20,8 +20,8 @@ body {
 }
 
 .title-h1 {
-    font-weight: 900;
     font-size: 3.5rem;
+    font-weight: 900;
     line-height: 1.5;
 }
 
@@ -68,12 +68,12 @@ body {
 */
 
 .title-image {
-    margin: 5%;
-    width: 55%;
-    transform: rotateZ(25deg);
     position: absolute;
     top: 0;
     right: 30%;
+    width: 55%;
+    margin: 5%;
+    transform: rotateZ(25deg);
 }
 
 /*
@@ -90,7 +90,7 @@ body {
 }
 
 #features p {
-    color: #8f8f8f
+    color: #8f8f8f;
 }
 
 #features span {
@@ -112,8 +112,8 @@ body {
 
 #testimonials {
     text-align: center;
-    background-color: #ef8172;
     color: #fff;
+    background-color: #ef8172;
 }
 
 em {
@@ -121,15 +121,15 @@ em {
 }
 
 .testimonials-h2 {
-    font-weight: 700;
     font-size: 3rem;
+    font-weight: 700;
     line-height: 1.5;
 }
 
 .testimonial-image {
     width: 15%;
-    border-radius: 100%;
     margin: 1.25rem;
+    border-radius: 100%;
 }
 
 .carousel-item {
@@ -141,9 +141,9 @@ em {
 */
 
 #press {
-    background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
+    text-align: center;
+    background-color: #ef8172;
 }
 
 .press-logo {
