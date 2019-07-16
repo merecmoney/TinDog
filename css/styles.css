@@ -214,8 +214,22 @@ em {
 /*
 * Medium devices (tablets, 768px and up)
 */
-@media (min-width: 768px) {
+@media (max-width: 991.98px) {
+    /*
+    * Title Section
+    */
+    #title {
+        text-align: center;
+    }
 
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title .container-fluid {
+        padding: 3% 15%;
+    }
 }
 
 /*
