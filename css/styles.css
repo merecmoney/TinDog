@@ -84,6 +84,7 @@ body {
 
 #features {
     text-align: center;
+    background-color: white;
 }
 
 #features h3 {
@@ -159,6 +160,7 @@ em {
 #pricing {
     padding: 6.25rem;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 .price-text {
