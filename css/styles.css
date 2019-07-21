@@ -181,6 +181,8 @@ em {
 
 /*
 * Media Queries
+* Media queries and mixins for targeting a single segment of
+* screen sizes using the minimum and maximum breakpoint widths.
 */
 
 /*
@@ -200,6 +202,12 @@ em {
             width: 30%;
             margin: auto;
         }
+
+        .press-logo {
+            display: block;
+            width: 50%;
+            margin: 0 auto 3.125rem;
+        }
 }
 
 /*
@@ -210,12 +218,16 @@ em {
     .title-h1 {
         font-size: 3rem;
     }
+
+    .press-logo {
+        width: 40%;
+    }
 }
 
 /*
 * Medium devices (tablets, 768px and up)
 */
-@media (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
     /*
     * Title Section
     */
@@ -252,13 +264,16 @@ em {
         display: block;
         padding: 3%;
     }
+
+    .press-logo {
+        width: 25%;
+    }
 }
 
 /*
 * Large devices (desktops, 992px and up)
 */
-@media (min-width: 992px) {
-
+@media (min-width: 992px) and (max-width: 1199.98px) {
 }
 
 /*
