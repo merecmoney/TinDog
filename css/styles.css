@@ -201,6 +201,24 @@ em {
 }
 
 /*
+ * Footer
+*/
+
+#footer {
+    background-color: white;
+    text-align: center;
+}
+
+#footer p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #8f8f8f;
+}
+
+.social-icon {
+    margin: 3% 2%;
+}
+/*
 * Media Queries
 * Media queries and mixins for targeting a single segment of
 * screen sizes using the minimum and maximum breakpoint widths.
