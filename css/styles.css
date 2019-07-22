@@ -192,7 +192,7 @@ em {
 #cta > h3 {
     font-size: 3.5rem;
     font-weight: 900;
-    padding: 3%;
+    padding: 3% 3% 0;
 }
 
 #cta > .btn {
