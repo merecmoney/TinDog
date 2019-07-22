@@ -179,6 +179,28 @@ em {
 }
 
 /*
+* Call to Action Section
+*/
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 3% 15%;
+}
+
+#cta > h3 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding: 3%;
+}
+
+#cta > .btn {
+    margin: 5% 3% 5% 0;
+    font-weight: 400;
+}
+
+/*
 * Media Queries
 * Media queries and mixins for targeting a single segment of
 * screen sizes using the minimum and maximum breakpoint widths.
