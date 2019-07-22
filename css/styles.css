@@ -89,7 +89,6 @@ body {
     text-align: center;
     background-color: white;
     position: relative;
-    z-index: 1;
 }
 
 #features h3 {
