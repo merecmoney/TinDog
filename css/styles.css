@@ -225,7 +225,7 @@ h6 {
     .testimonial-image {
         display: block;
         width: 30%;
-        margin: auto;
+        margin: 1.25rem auto;
     }
 
     .press-logo {
