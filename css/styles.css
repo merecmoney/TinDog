@@ -36,6 +36,10 @@ h6 {
 .bold-text {
     font-weight: 700;
 }
+
+.regular-text {
+    font-weight: 400;
+}
 /*
 * Title Section
 */
@@ -70,7 +74,6 @@ h6 {
 
 .title-nav-link {
     font-size: 1.2rem;
-    font-weight: 400;
 }
 
 /*
@@ -81,7 +84,6 @@ h6 {
  * Add margin instead of padding because padding would affect space inside button
 */
 .download-button {
-    font-weight: 400;
     margin: 5% 3% 5% 0;
 }
 
@@ -109,7 +111,6 @@ h6 {
 
 #features h3 {
     font-size: 1.5rem;
-    font-weight: 700;
 }
 
 #features p {
@@ -136,10 +137,6 @@ h6 {
 #testimonials {
     color: #fff;
     background-color: #ef8172;
-}
-
-em {
-    font-weight: 700;
 }
 
 .testimonial-image {
@@ -201,7 +198,6 @@ em {
 
 #footer p {
     font-size: 1.2rem;
-    font-weight: 700;
     color: #8f8f8f;
 }
 
