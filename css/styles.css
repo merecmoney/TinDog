@@ -40,17 +40,24 @@ h6 {
 .regular-text {
     font-weight: 400;
 }
-/*
-* Title Section
-*/
 
-#title {
-    text-align: left;
+/* Section */
+
+.colored-section {
     color: #fff;
     background-color: #ff4c68;
 }
 
+.white-section {
+    background-color: #fff;
+}
+
+/*
+* Title Section
+*/
+
 #title .container-fluid {
+    text-align: left;
     padding: 3% 15% 15%;
 }
 
@@ -106,7 +113,6 @@ h6 {
 
 #features {
     position: relative;
-    background-color: white;
 }
 
 #features h3 {
@@ -135,7 +141,6 @@ h6 {
 */
 
 #testimonials {
-    color: #fff;
     background-color: #ef8172;
 }
 
@@ -179,11 +184,6 @@ h6 {
 * Call to Action Section
 */
 
-#cta {
-    color: white;
-    background-color: #ff4c68;
-}
-
 #cta h3 {
     padding: 3% 3% 0;
 }
@@ -191,10 +191,6 @@ h6 {
 /*
  * Footer
 */
-
-#footer {
-    background-color: white;
-}
 
 #footer p {
     font-size: 1.2rem;
@@ -322,16 +318,13 @@ h6 {
     /*
     * Title Section
     */
-    #title {
-        text-align: center;
-    }
-
     .title-image {
         position: static;
         transform: rotate(0deg);
     }
 
     #title .container-fluid {
+        text-align: center;
         padding: 3% 15%;
     }
 }
